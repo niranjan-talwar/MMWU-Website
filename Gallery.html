@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" type="x-icon" href="Images/logo.png">
+    <title>Gallery | MMWU</title>
+  </head>
+  <body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: blanchedalmond;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .head{
+            padding-top: 15px;
+            text-align: center;
+            height: auto;
+        }  
+
+        #gal{
+            text-align: center;
+        }
+
+        footer{
+            text-align: center;
+            margin-top: 20px;
+            background-color: rgba(255, 255, 255, 0.862);
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .container .box{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .container .box .dream{
+            display: flex;
+            flex-direction: column;
+            width: 32.5%; 
+        }
+
+        .container .box .dream img{
+            width: 100%;
+            padding-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        @media only screen and (max-width: 769px){
+            .container .box{
+            flex-direction: column;
+        }
+        .container .box .dream{
+            width: 100%; 
+        }
+        }
+    </style>
+    <div class="head">
+        <img src="Images/logo.png" alt="logo"><br>
+        <h1 id="mmwu">Metal Mine Workers Union | MMWU</h1>
+        <p>MMWU Office, North Block, NMDC, Donimalai, Sandur Tq, Bellary Dist, Karnataka, India - 583118</p>
+    </div>
+
+    <div class="container">
+        <div class="heading">
+            <h1 id="gal"><u>Gallery</u></h1>
+        </div>
+        <div class="box">
+            <div class="dream">
+                <a href="Images/slide1.JPG" target="_blank"><img src="Images/slide1.JPG" alt="1"></a>
+                <a href="Images/slide8.jpeg" target="_blank"><img src="Images/slide8.jpeg" alt="2"></a>
+            </div>
+            <div class="dream">
+                <a href="Images/slide3.JPG" target="_blank"><img src="Images/slide3.JPG" alt="3"></a>
+                <a href="Images/slide4.jpeg" target="_blank"><img src="Images/slide4.jpeg" alt="4"></a>
+            </div>
+            <div class="dream">
+                <a href="Images/slide5.jpeg" target="_blank"><img src="Images/slide5.jpeg" alt="5"></a>
+                <a href="Images/slide6.jpeg" target="_blank"><img src="Images/slide6.jpeg" alt="6"></a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copy Right 2022. MMWU - NMDC Ltd All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
